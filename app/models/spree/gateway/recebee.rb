@@ -11,6 +11,7 @@ module Spree
     end
 
     def cancel(response)
+      byebug
       void(response)
     end
   end
